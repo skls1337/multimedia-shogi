@@ -25,7 +25,7 @@ body {
   font-family: 'EB Garamond', serif;
   font-size: 14px;
   padding: 0 0;
-  background: #ffffff url('../layout/bg1.jpg') no-repeat center center fixed;
+  background: #ffffff url('drawable/jonghi-background.jpg') no-repeat center center fixed;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -57,12 +57,22 @@ body {
 #centerpanel {
   width: 960px;
   text-align: center;
-  padding: 00px 00px 30px 00px;
+  padding: 0px 50px 50px 50px;
   color: #222;
   font-size: 17px;
+  background-color: rgb(250, 238, 224);
+  border-radius: 25px;
 }
 
-#centerpanel h1.uvod {
+#centerpanel h1.about-shogi {
+  color: #ac120c;
+  font-weight: bold;
+  text-transform: none;
+  font-size: 47px;
+  margin-top: -25px;
+}
+
+#centerpanel h1.shogi-first-title {
   color: #ac120c;
   font-weight: bold;
   text-transform: none;
@@ -70,8 +80,23 @@ body {
   margin-top: -25px;
 }
 
+#centerpanel h2 b{
+  color: #ac120c;
+  font-weight: bold;
+  text-transform: none;
+  font-size: 37px;
+  margin-top: -25px;
+}
+#centerpanel h3 b{
+  color: #ac120c;
+  font-weight: bold;
+  text-transform: none;
+  font-size: 22px;
+  margin-top: -25px;
+}
+
 #centerpanel p {
-  font-size: 17px;
+  font-size: 20px;
   line-height: 140%;
   padding: 0 0 8px 0;
 }
@@ -93,7 +118,17 @@ body {
   margin: 20px 15px 10px;
 }
 
-.fdlink:hover {
+.fdlink:hover{
   background-position: 50% -200px;
+  color: #ac120c;
+}
+
+  .fd1{background-image: url('drawable/fd1.png') }
+  .fd2{background-image: url('drawable/fd2.png') }
+  .fd3{background-image: url('drawable/fd3.png'); padding-top: 150px; background-position: 50% -364px; width: 160px; font-size: 20px;}
+  .fd3:hover{background-position: 50% -182px;}
+
+.fdactive{
+  background-position: 50% 0%;
   color: #ac120c;
 }
