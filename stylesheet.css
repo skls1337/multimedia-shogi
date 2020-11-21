@@ -1,67 +1,67 @@
-*{
-	margin: 0;
-	padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-a img{
-	border: 0;
+a img {
+  border: 0;
 }
-.none{
-	display: none;
+.none {
+  display: none;
 }
-.clear{
-	clear: both;
+.clear {
+  clear: both;
 }
-hr{ display: none;}
-a{
+hr {
+  display: none;
+}
+a {
   color: #ac120c;
 }
-a:hover{
-	color: #444;
+a:hover {
+  color: #444;
 }
-body{
-	text-align: left;
-	font-family: 'EB Garamond', serif;
-	font-size: 14px;
-	padding: 0 0;
-	background: #ffffff url('../layout/bg1.jpg') no-repeat center center fixed;
+body {
+  text-align: left;
+  font-family: 'EB Garamond', serif;
+  font-size: 14px;
+  padding: 0 0;
+  background: #ffffff url('../layout/bg1.jpg') no-repeat center center fixed;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-#contentbg{
+#contentbg {
   width: 100%;
   position: relative;
   text-align: center;
 }
 
-#content{
+#content {
   position: relative;
   margin: 0px auto 0;
   width: 960px;
   text-align: left;
-  padding: 0px 50px 0 ;
+  padding: 0px 50px 0;
 }
 
-#header{
+#header {
   width: 960px;
   position: relative;
-  height:  180px;
+  height: 180px;
   margin: 0 auto 0px auto;
-
 }
 
-#centerpanel{
+#centerpanel {
   width: 960px;
   text-align: center;
   padding: 00px 00px 30px 00px;
   color: #222;
-    font-size: 17px;
+  font-size: 17px;
 }
 
-
-#centerpanel h1.uvod{
+#centerpanel h1.uvod {
   color: #ac120c;
   font-weight: bold;
   text-transform: none;
@@ -69,15 +69,13 @@ body{
   margin-top: -25px;
 }
 
-
-#centerpanel p{
-
+#centerpanel p {
   font-size: 17px;
   line-height: 140%;
   padding: 0 0 8px 0;
 }
 
-.fdlink{
+.fdlink {
   display: inline-block;
   padding: 116px 0 0 0;
   text-align: center;
@@ -94,7 +92,7 @@ body{
   margin: 20px 15px 10px;
 }
 
-.fdlink:hover{
+.fdlink:hover {
   background-position: 50% -200px;
   color: #ac120c;
 }
