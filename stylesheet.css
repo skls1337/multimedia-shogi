@@ -62,6 +62,7 @@ body {
   font-size: 17px;
   background-color: rgb(250, 238, 224);
   border-radius: 25px;
+  opacity: 0.95;
 }
 
 #centerpanel h1.about-shogi {
@@ -93,6 +94,7 @@ body {
   text-transform: none;
   font-size: 22px;
   margin-top: -25px;
+  
 }
 
 #centerpanel p {
